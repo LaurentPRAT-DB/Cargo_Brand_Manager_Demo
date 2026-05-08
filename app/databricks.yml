@@ -1,0 +1,24 @@
+bundle:
+  name: msc-cargo-brand-manager
+
+variables:
+  app_name:
+    description: Name of the Databricks App
+    default: msc-cargo-brand-manager
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      root_path: /Users/${workspace.current_user.userName}/.bundle/${bundle.name}/dev
+
+resources:
+  apps:
+    msc_cargo_brand_manager:
+      name: ${var.app_name}
+      description: "MSC Cargo Brand Manager — KPI dashboard, Genie chat, email composer, campaign planner"
+      source_code_path: .
+      permissions:
+        - user_name: ${workspace.current_user.userName}
+          level: CAN_MANAGE

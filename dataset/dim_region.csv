@@ -1,0 +1,6 @@
+region_id,region_name,region_code,cluster,hq_city,office_count,headcount_marketing
+R01,EMEA,EMEA,Europe Middle East Africa,Geneva,210,42
+R02,Americas,AMER,North & South America,New York,145,28
+R03,Asia Pacific,APAC,Asia Pacific,Singapore,130,25
+R04,South Asia,SASI,South Asia,Mumbai,65,12
+R05,Middle East & Africa,MEA,Middle East & Africa,Dubai,55,10

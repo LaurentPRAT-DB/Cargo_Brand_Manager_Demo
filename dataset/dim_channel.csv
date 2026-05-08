@@ -1,0 +1,10 @@
+channel_id,channel_name,channel_type,owned_paid_earned,primary_audience
+CH01,msc.com/cargo,Website,Owned,Shippers & Forwarders
+CH02,LinkedIn,Social,Owned,Trade Professionals
+CH03,Google Search (Brand),Paid Search,Paid,Active Searchers
+CH04,Google Search (Generic),Paid Search,Paid,New Prospects
+CH05,Trade Press (e.g. Lloyd's List),PR & Media,Earned,Industry Analysts
+CH06,Email Newsletter,Email,Owned,Existing Customers
+CH07,Trade Shows & Events,Events,Owned,Freight Forwarders
+CH08,YouTube,Video,Owned,Broad Awareness
+CH09,Display / Programmatic,Paid Display,Paid,Retargeting

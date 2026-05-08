@@ -1,0 +1,8 @@
+campaign_id,campaign_name,campaign_type,product_focus,target_segment,budget_usd,start_date,end_date,channel_ids
+C001,Reefer Excellence,Product,Reefer Cargo,Food & Pharma Exporters,320000,2024-11-01,2025-01-31,"CH01,CH02,CH03,CH06"
+C002,Asia-Europe Reliability,Trade Lane,Dry Container,Freight Forwarders,250000,2024-11-01,2024-12-31,"CH03,CH04,CH05,CH09"
+C003,MSC Digital First,Brand Awareness,All Products,New Prospects,180000,2025-01-01,2025-02-28,"CH02,CH08,CH09"
+C004,Dangerous Goods Safety,Product,DG Cargo,Specialist Forwarders,140000,2025-01-01,2025-03-31,"CH01,CH05,CH06"
+C005,Sustainability in Shipping,ESG / Brand,All Products,Corporate Shippers,200000,2025-02-01,2025-04-30,"CH02,CH05,CH08"
+C006,Project Cargo Solutions,Product,Project Cargo,Engineering & Energy,160000,2025-03-01,2025-04-30,"CH01,CH03,CH05"
+C007,Peak Season Readiness,Seasonal,Dry Container,All Segments,220000,2024-10-01,2024-10-31,"CH03,CH04,CH06,CH09"

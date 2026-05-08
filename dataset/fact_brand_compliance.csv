@@ -1,0 +1,16 @@
+comp_id,date_id,region_id,overall_score_pct,visual_identity_pct,tone_of_voice_pct,digital_assets_pct,collateral_pct,offices_audited,offices_compliant,critical_issues,notes
+BC001,202405,R01,85,88,84,83,85,42,36,2,Two offices using old logo version
+BC002,202405,R02,82,85,81,80,82,28,23,3,Rate card template non-compliant
+BC003,202405,R03,80,83,79,78,80,25,20,4,Digital assets outdated — 2022 versions
+BC004,202405,R04,76,78,75,74,77,12,9,5,Multiple tone of voice deviations
+BC005,202405,R05,74,76,73,72,75,10,7,6,Highest critical issue count — escalated
+BC006,202411,R01,90,92,89,89,90,42,38,1,Significant improvement — 1 legacy office remaining
+BC007,202411,R02,86,88,85,85,86,28,24,2,Rate card resolved; minor collateral issues
+BC008,202411,R03,84,86,83,82,85,25,21,3,Asset library refresh partially deployed
+BC009,202411,R04,80,82,79,78,81,12,10,3,Improvement noted post-training
+BC010,202411,R05,79,81,78,76,81,10,8,4,Progress slow — resource constraint flagged
+BC011,202504,R01,95,96,94,94,96,42,40,0,Full compliance achieved in EMEA hub offices
+BC012,202504,R02,91,93,90,90,91,28,25,1,One legacy collateral set outstanding
+BC013,202504,R03,89,91,88,87,90,25,22,2,Asset library now 90% refreshed
+BC014,202504,R04,86,88,85,84,87,12,10,2,Training programme completed — sustained lift
+BC015,202504,R05,88,90,87,86,89,10,9,1,Strong recovery after action plan in Q1

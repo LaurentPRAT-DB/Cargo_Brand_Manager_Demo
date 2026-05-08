@@ -1,0 +1,445 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2869
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 PowerlineSymbols;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red63\green63\blue63;\red137\green191\blue255;
+\red56\green185\blue199;\red202\green51\blue35;}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c31373\c31373\c31373;\cssrgb\c60000\c80000\c100000;
+\cssrgb\c25546\c77007\c82023;\cssrgb\c83899\c28663\c18026;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww34360\viewh18520\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 Here is Claude's plan:                                                                                                         
+\f1 \
+
+\f0 \cf3 \uc0\u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 \u9548 
+\f1 \cf2 \
+
+\f0  \ul MSC Cargo Brand Manager \'97 APX App Plan\ulnone                                    
+\f1 \
+
+\f0                                      
+\f1 \
+
+\f0  Context                                                                  
+\f1 \
+
+\f0                                                                                                           
+\f1 \
+
+\f0  The MSC Cargo Brand Manager Genie Space is deployed with 12 tables (4 dimensions + 8 facts) on
+\f1 \
+
+\f0  \cf4 fevm-serverless-stable-3n0ihb.cloud.databricks.com\cf2 . The brand manager needs a single-pane-of-glass app that combines KPI
+\f1 \
+
+\f0  monitoring, AI-powered analytics (via Genie), email composition, and campaign planning. The APX framework (FastAPI + React) is
+\f1 \
+
+\f0   chosen to enable future extensions with Agent SDK, MCP server capabilities, and Lakebase backend.
+\f1 \
+\
+
+\f0  Architecture
+\f1 \
+\
+
+\f0  \uc0\u9484 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9488 
+\f1 \
+
+\f0  \uc0\u9474   React Frontend (TanStack Router + shadcn/ui)                   \u9474 
+\f1 \
+
+\f0  \uc0\u9474   \u9484 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9488  \u9484 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9488  \u9484 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9488  \u9484 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9488    \u9474 
+\f1 \
+
+\f0  \uc0\u9474   \u9474 Dashboard \u9474  \u9474  Genie    \u9474  \u9474  Email        \u9474  \u9474  Campaign      \u9474    \u9474 
+\f1 \
+
+\f0  \uc0\u9474   \u9474  (KPIs)   \u9474  \u9474  Chat     \u9474  \u9474  Composer     \u9474  \u9474  Planner       \u9474    \u9474 
+\f1 \
+
+\f0  \uc0\u9474   \u9492 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9496  \u9492 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9496  \u9492 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9496  \u9492 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9496    \u9474 
+\f1 \
+
+\f0  \uc0\u9492 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9496 
+\f1 \
+
+\f0                                \uc0\u9474 
+\f1 \
+
+\f0                       FastAPI Backend
+\f1 \
+
+\f0                                \uc0\u9474 
+\f1 \
+
+\f0           \uc0\u9484 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9516 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9524 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9516 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9488 
+\f1 \
+
+\f0           \uc0\u9474             \u9474               \u9474               \u9474 
+\f1 \
+
+\f0     Genie API    SQL Warehouse   Foundation    Lakebase
+\f1 \
+
+\f0     (Conversation)  (KPI queries)   Model       (future)
+\f1 \
+
+\f0                                   (email draft)
+\f1 \
+\
+
+\f0  Project Structure
+\f1 \
+\
+
+\f0  msc-cargo-brand-manager/
+\f1 \
+
+\f0  \uc0\u9500 \u9472 \u9472  app.yaml                          # Databricks App config
+\f1 \
+
+\f0  \uc0\u9500 \u9472 \u9472  databricks.yml                    # DABs bundle config
+\f1 \
+
+\f0  \uc0\u9500 \u9472 \u9472  pyproject.toml                    # Python deps (fastapi, httpx, databricks-sdk)
+\f1 \
+
+\f0  \uc0\u9500 \u9472 \u9472  msc_cargo_brand_manager/
+\f1 \
+
+\f0  \uc0\u9474    \u9500 \u9472 \u9472  __init__.py
+\f1 \
+
+\f0  \uc0\u9474    \u9500 \u9472 \u9472  _metadata.py
+\f1 \
+
+\f0  \uc0\u9474    \u9500 \u9472 \u9472  __dist__/                     # Built frontend
+\f1 \
+
+\f0  \uc0\u9474    \u9500 \u9472 \u9472  backend/
+\f1 \
+
+\f0  \uc0\u9474    \u9474    \u9500 \u9472 \u9472  app.py                    # FastAPI app + static serving
+\f1 \
+
+\f0  \uc0\u9474    \u9474    \u9500 \u9472 \u9472  config.py                 # Settings (space_id, host, etc.)
+\f1 \
+
+\f0  \uc0\u9474    \u9474    \u9500 \u9472 \u9472  core.py                   # Auth helpers, DB client
+\f1 \
+
+\f0  \uc0\u9474    \u9474    \u9500 \u9472 \u9472  models.py                 # Pydantic models
+\f1 \
+
+\f0  \uc0\u9474    \u9474    \u9492 \u9472 \u9472  routers/
+\f1 \
+
+\f0  \uc0\u9474    \u9474        \u9500 \u9472 \u9472  __init__.py
+\f1 \
+
+\f0  \uc0\u9474    \u9474        \u9500 \u9472 \u9472  kpi.py                # GET /api/kpi \'97 fetch KPI summary
+\f1 \
+
+\f0  \uc0\u9474    \u9474        \u9500 \u9472 \u9472  genie.py              # POST /api/genie/ask, /followup
+\f1 \
+
+\f0  \uc0\u9474    \u9474        \u9500 \u9472 \u9472  email.py              # POST /api/email/draft
+\f1 \
+
+\f0  \uc0\u9474    \u9474        \u9492 \u9472 \u9472  campaigns.py          # CRUD /api/campaigns
+\f1 \
+
+\f0  \uc0\u9474    \u9492 \u9472 \u9472  ui/
+\f1 \
+
+\f0  \uc0\u9474        \u9500 \u9472 \u9472  index.html
+\f1 \
+
+\f0  \uc0\u9474        \u9500 \u9472 \u9472  routes/
+\f1 \
+
+\f0  \uc0\u9474        \u9474    \u9500 \u9472 \u9472  _sidebar/
+\f1 \
+
+\f0  \uc0\u9474        \u9474    \u9474    \u9500 \u9472 \u9472  route.tsx         # Sidebar layout
+\f1 \
+
+\f0  \uc0\u9474        \u9474    \u9474    \u9500 \u9472 \u9472  dashboard.tsx     # KPI dashboard page
+\f1 \
+
+\f0  \uc0\u9474        \u9474    \u9474    \u9500 \u9472 \u9472  chat.tsx          # Genie chat page
+\f1 \
+
+\f0  \uc0\u9474        \u9474    \u9474    \u9500 \u9472 \u9472  email.tsx         # Email composer page
+\f1 \
+
+\f0  \uc0\u9474        \u9474    \u9474    \u9492 \u9472 \u9472  campaigns.tsx     # Campaign planner page
+\f1 \
+
+\f0  \uc0\u9474        \u9492 \u9472 \u9472  components/
+\f1 \
+
+\f0  \uc0\u9474            \u9500 \u9472 \u9472  kpi-card.tsx           # KPI card (value + target + status)
+\f1 \
+
+\f0  \uc0\u9474            \u9500 \u9472 \u9472  chat-message.tsx       # Chat bubble component
+\f1 \
+
+\f0  \uc0\u9474            \u9492 \u9472 \u9472  data-table.tsx         # Reusable data table
+\f1 \
+\
+
+\f0  Backend Routes
+\f1 \
+\
+
+\f0  1. KPI Router (\cf4 /api/kpi\cf2 )
+\f1 \
+\
+
+\f0  - \cf4 GET\cf2  \cf4 /api/kpi/summary\cf2  \'97 Runs SQL queries against the msc_cargo tables to compute current KPI values vs targets. Returns array
+\f1 \
+
+\f0   of \cf4 \{name,\cf2  \cf4 value,\cf2  \cf4 target,\cf2  \cf4 alert_threshold,\cf2  \cf4 status:\cf2  \cf4 "green"|"amber"|"red",\cf2  \cf4 trend\}\cf2 .
+\f1 \
+\
+
+\f0  2. Genie Router (\cf4 /api/genie\cf2 )
+\f1 \
+\
+
+\f0  - \cf4 POST\cf2  \cf4 /api/genie/ask\cf2  \'97 Proxies to Genie Conversation API (start-conversation). Polls until result, returns SQL + data +
+\f1 \
+
+\f0  text_response.
+\f1 \
+
+\f0  - \cf4 POST\cf2  \cf4 /api/genie/followup\cf2  \'97 Follows up in existing conversation.
+\f1 \
+
+\f0  - Uses OBO auth pattern (forwards user's Bearer token to Databricks API).
+\f1 \
+\
+
+\f0  3. Email Router (\cf4 /api/email\cf2 )
+\f1 \
+\
+
+\f0  - \cf4 POST\cf2  \cf4 /api/email/draft\cf2  \'97 Takes context (KPI data, Genie insight text) + recipient + subject, calls Foundation Model endpoint
+\f1 \
+
+\f0  to generate a professional email draft. Returns markdown-formatted email body.
+\f1 \
+\
+
+\f0  4. Campaigns Router (\cf4 /api/campaigns\cf2 )
+\f1 \
+\
+
+\f0  - \cf4 GET\cf2  \cf4 /api/campaigns\cf2  \'97 Lists campaigns from dim_campaign table.
+\f1 \
+
+\f0  - \cf4 POST\cf2  \cf4 /api/campaigns/recommend\cf2  \'97 Takes campaign parameters (budget, segment, product), queries historical
+\f1 \
+
+\f0  fact_campaign_performance for channel ROI by similar campaigns, uses Foundation Model to recommend channel mix allocation.
+\f1 \
+\
+
+\f0  Frontend Pages
+\f1 \
+\
+
+\f0  Dashboard (\cf4 /dashboard\cf2 )
+\f1 \
+\
+
+\f0  - Grid of KPI cards (9 KPIs from the instructions)
+\f1 \
+
+\f0  - Each card: metric name, current value, target, visual indicator (green/amber/red)
+\f1 \
+
+\f0  - Click a card \uc0\u8594  navigates to Genie chat with pre-filled question about that KPI
+\f1 \
+\
+
+\f0  Genie Chat (\cf4 /chat\cf2 )
+\f1 \
+\
+
+\f0  - Chat interface with message history
+\f1 \
+
+\f0  - Input field at bottom, messages above
+\f1 \
+
+\f0  - Shows SQL generated (collapsible), data tables, and text explanations
+\f1 \
+
+\f0  - Maintains conversation_id for follow-ups
+\f1 \
+\
+
+\f0  Email Composer (\cf4 /email\cf2 )
+\f1 \
+\
+
+\f0  - Recipient, subject, and context fields
+\f1 \
+
+\f0  - "Import from Chat" button to pull last Genie insight as context
+\f1 \
+
+\f0  - "Generate Draft" button \uc0\u8594  calls backend Foundation Model
+\f1 \
+
+\f0  - Editable rich-text preview of generated email
+\f1 \
+
+\f0  - "Copy" button for clipboard
+\f1 \
+\
+
+\f0  Campaign Planner (\cf4 /campaigns\cf2 )
+\f1 \
+\
+
+\f0  - Form: name, product focus, target segment, budget, date range, channel selection
+\f1 \
+
+\f0  - "Get Recommendation" button \uc0\u8594  AI suggests channel budget allocation based on historical ROI
+\f1 \
+
+\f0  - Shows historical comparables from fact_campaign_performance
+\f1 \
+
+\f0  - "Save Draft" stores to local state (Lakebase in future)
+\f1 \
+\
+
+\f0  Key Dependencies
+\f1 \
+\
+
+\f0  - Backend: fastapi, uvicorn, httpx, databricks-sdk, pydantic
+\f1 \
+
+\f0  - Frontend: react, @tanstack/react-router, shadcn/ui components (card, badge, table, input, button, textarea, select, tabs,
+\f1 \
+
+\f0  skeleton, scroll-area)
+\f1 \
+\
+
+\f0  Environment Variables (app.yaml)
+\f1 \
+\
+
+\f0  \cf5 env:
+\f1 \cf2 \
+
+\f0    - \cf5 name:\cf2  \cf6 DATABRICKS_HOST
+\f1 \cf2 \
+
+\f0      \cf5 value:\cf2  \cf6 "https://fevm-serverless-stable-3n0ihb.cloud.databricks.com"
+\f1 \cf2 \
+
+\f0    - \cf5 name:\cf2  \cf6 GENIE_SPACE_ID
+\f1 \cf2 \
+
+\f0      \cf5 value:\cf2  \cf6 "01f14acf90d51d9aadeaff3820a01f5b"
+\f1 \cf2 \
+
+\f0    - \cf5 name:\cf2  \cf6 WAREHOUSE_ID
+\f1 \cf2 \
+
+\f0      \cf5 value:\cf2  \cf6 "b868e84cedeb4262"
+\f1 \cf2 \
+
+\f0    - \cf5 name:\cf2  \cf6 CATALOG
+\f1 \cf2 \
+
+\f0      \cf5 value:\cf2  \cf6 "serverless_stable_3n0ihb_catalog"
+\f1 \cf2 \
+
+\f0    - \cf5 name:\cf2  \cf6 SCHEMA
+\f1 \cf2 \
+
+\f0      \cf5 value:\cf2  \cf6 "msc_cargo"
+\f1 \cf2 \
+\
+
+\f0  Implementation Phases
+\f1 \
+\
+
+\f0  Phase 1: Scaffold (5 min)
+\f1 \
+\
+
+\f0  - Run \cf4 apx\cf2  \cf4 init\cf2  to create the project skeleton
+\f1 \
+
+\f0  - Configure \cf4 app.yaml\cf2  and \cf4 databricks.yml
+\f1 \cf2 \
+\
+
+\f0  Phase 2: Backend \'97 KPI + Genie (20 min)
+\f1 \
+\
+
+\f0  - Implement \cf4 config.py\cf2  with env vars
+\f1 \
+
+\f0  - Implement \cf4 core.py\cf2  with OBO auth helper
+\f1 \
+
+\f0  - Implement \cf4 kpi.py\cf2  router with SQL queries for all 9 KPIs
+\f1 \
+
+\f0  - Implement \cf4 genie.py\cf2  router (proxy pattern from conversation.md)
+\f1 \
+\
+
+\f0   Proposed Layout:
+\f1 \
+\
+
+\f0   1. KPI Dashboard (top) \'97 Real-time cards showing each KPI vs target with red/amber/green status, pulled directly from the
+\f1 \
+
+\f0   msc_cargo tables via SQL. Click any card to drill into the Genie chat with a pre-filled question.
+\f1 \
+
+\f0   2. Genie Chat (center-left) \'97 Conversational analytics powered by the Genie Space backend. The brand manager asks "why is NPS
+\f1 \
+
+\f0   dropping in MEA?" and gets SQL-backed answers with charts. Conversation history persists per session.
+\f1 \
+
+\f0   3. Email Composer (center-right) \'97 Takes Genie insights and drafts stakeholder emails (e.g., "Summarize this NPS decline for
+\f1 \
+
+\f0   regional leadership"). Uses a Foundation Model endpoint to generate the draft, pre-populated with data context from the chat.
+\f1 \
+
+\f0   4. Campaign Planner (bottom) \'97 Form to define new campaigns (name, budget, channels, target segment, dates) with an AI advisor
+\f1 \
+
+\f0    that recommends channel mix based on historical performance from \cf4 fact_campaign_performance\cf2 . Saves drafts locally and can push
+\f1 \
+
+\f0    to a tracking table.
+\f1 \
+\
+
+\f0   Key architecture tradeoff: A Streamlit app would be faster to build (2-3 days) but would feel like a prototype. The APX
+\f1 \
+
+\f0   approach (FastAPI + React) takes ~5 days but gives a production-quality SPA with proper routing, responsive layout, and smooth
+\f1 \
+
+\f0    UX between panels.
+\f1 \
+}

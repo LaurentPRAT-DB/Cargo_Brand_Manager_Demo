@@ -1,0 +1,61 @@
+sov_id,date_id,competitor_name,media_mentions,share_of_voice_pct,sentiment_positive_pct,sentiment_neutral_pct,sentiment_negative_pct,top_topic,source_type
+SOV001,202405,MSC Cargo,310,21.0,54,32,14,Network expansion,Trade Press
+SOV002,202405,Maersk,540,36.5,58,28,14,Decarbonisation,Trade Press
+SOV003,202405,CMA CGM,270,18.3,52,34,14,Digital logistics,Trade Press
+SOV004,202405,Hapag-Lloyd,210,14.2,50,36,14,Schedule reliability,Trade Press
+SOV005,202405,Others,148,10.0,48,38,14,General,Trade Press
+SOV006,202406,MSC Cargo,318,21.5,54,32,14,Network expansion,Trade Press
+SOV007,202406,Maersk,544,36.8,58,28,14,Decarbonisation,Trade Press
+SOV008,202406,CMA CGM,272,18.4,52,34,14,Digital logistics,Trade Press
+SOV009,202406,Hapag-Lloyd,205,13.9,50,36,14,Schedule reliability,Trade Press
+SOV010,202406,Others,139,9.4,48,38,14,General,Trade Press
+SOV011,202407,MSC Cargo,325,22.0,53,33,14,Reefer services,Trade Press
+SOV012,202407,Maersk,538,36.4,57,29,14,Decarbonisation,Trade Press
+SOV013,202407,CMA CGM,278,18.8,52,34,14,Digital logistics,Trade Press
+SOV014,202407,Hapag-Lloyd,202,13.7,50,36,14,Schedule reliability,Trade Press
+SOV015,202407,Others,135,9.1,48,38,14,General,Trade Press
+SOV016,202408,MSC Cargo,332,22.5,53,33,14,Reefer services,Trade Press
+SOV017,202408,Maersk,535,36.2,57,29,14,Decarbonisation,Trade Press
+SOV018,202408,CMA CGM,280,18.9,52,34,14,Digital logistics,Trade Press
+SOV019,202408,Hapag-Lloyd,198,13.4,50,36,14,Schedule reliability,Trade Press
+SOV020,202408,Others,133,9.0,48,38,14,General,Trade Press
+SOV021,202409,MSC Cargo,340,23.0,54,32,14,Reefer services,Trade Press
+SOV022,202409,Maersk,532,36.0,57,29,14,Decarbonisation,Trade Press
+SOV023,202409,CMA CGM,282,19.1,52,34,14,Digital logistics,Trade Press
+SOV024,202409,Hapag-Lloyd,195,13.2,50,36,14,Schedule reliability,Trade Press
+SOV025,202409,Others,129,8.7,48,38,14,General,Trade Press
+SOV026,202410,MSC Cargo,348,23.5,54,32,14,Peak season readiness,Trade Press
+SOV027,202410,Maersk,530,35.8,57,29,14,Decarbonisation,Trade Press
+SOV028,202410,CMA CGM,284,19.2,52,34,14,Digital logistics,Trade Press
+SOV029,202410,Hapag-Lloyd,192,13.0,50,36,14,Schedule reliability,Trade Press
+SOV030,202410,Others,126,8.5,48,38,14,General,Trade Press
+SOV031,202411,MSC Cargo,358,24.0,55,31,14,Reefer campaign,Trade Press
+SOV032,202411,Maersk,525,35.2,57,29,14,Decarbonisation,Trade Press
+SOV033,202411,CMA CGM,285,19.1,52,34,14,Digital logistics,Trade Press
+SOV034,202411,Hapag-Lloyd,188,12.6,49,37,14,Schedule reliability,Trade Press
+SOV035,202411,Others,125,8.4,48,38,14,General,Trade Press
+SOV036,202412,MSC Cargo,352,23.8,55,31,14,Reefer campaign,Trade Press
+SOV037,202412,Maersk,522,35.3,57,29,14,Decarbonisation,Trade Press
+SOV038,202412,CMA CGM,282,19.1,52,34,14,Digital logistics,Trade Press
+SOV039,202412,Hapag-Lloyd,185,12.5,49,37,14,Schedule reliability,Trade Press
+SOV040,202412,Others,138,9.3,48,38,14,General,Trade Press
+SOV041,202501,MSC Cargo,368,24.8,56,30,14,Digital First,Trade Press
+SOV042,202501,Maersk,518,35.0,57,29,14,Decarbonisation,Trade Press
+SOV043,202501,CMA CGM,280,18.9,52,34,14,Digital logistics,Trade Press
+SOV044,202501,Hapag-Lloyd,182,12.3,49,37,14,Schedule reliability,Trade Press
+SOV045,202501,Others,132,8.9,48,38,14,General,Trade Press
+SOV046,202502,MSC Cargo,385,25.8,57,30,13,ESG & sustainability,Trade Press
+SOV047,202502,Maersk,514,34.5,58,28,14,Decarbonisation,Trade Press
+SOV048,202502,CMA CGM,278,18.7,52,34,14,Digital logistics,Trade Press
+SOV049,202502,Hapag-Lloyd,180,12.1,49,37,14,Schedule reliability,Trade Press
+SOV050,202502,Others,133,8.9,48,38,14,General,Trade Press
+SOV051,202503,MSC Cargo,400,26.8,57,30,13,Project Cargo,Trade Press
+SOV052,202503,Maersk,510,34.2,58,28,14,Decarbonisation,Trade Press
+SOV053,202503,CMA CGM,276,18.5,52,34,14,Digital logistics,Trade Press
+SOV054,202503,Hapag-Lloyd,178,11.9,49,37,14,Schedule reliability,Trade Press
+SOV055,202503,Others,128,8.6,48,38,14,General,Trade Press
+SOV056,202504,MSC Cargo,420,27.8,58,29,13,Project Cargo + ESG,Trade Press
+SOV057,202504,Maersk,506,33.5,58,28,14,Decarbonisation,Trade Press
+SOV058,202504,CMA CGM,274,18.2,52,34,14,Digital logistics,Trade Press
+SOV059,202504,Hapag-Lloyd,175,11.6,49,37,14,Schedule reliability,Trade Press
+SOV060,202504,Others,134,8.9,48,38,14,General,Trade Press

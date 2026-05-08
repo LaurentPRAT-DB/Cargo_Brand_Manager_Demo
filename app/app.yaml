@@ -1,0 +1,25 @@
+command:
+  - uvicorn
+  - msc_cargo_brand_manager.backend.app:app
+  - --host
+  - 0.0.0.0
+  - --port
+  - "8000"
+
+env:
+  - name: DATABRICKS_HOST
+    value: "https://fevm-serverless-stable-3n0ihb.cloud.databricks.com"
+  - name: GENIE_SPACE_ID
+    value: "01f14acf90d51d9aadeaff3820a01f5b"
+  - name: WAREHOUSE_ID
+    value: "b868e84cedeb4262"
+  - name: CATALOG
+    value: "serverless_stable_3n0ihb_catalog"
+  - name: SCHEMA
+    value: "msc_cargo"
+  - name: LLM_ENDPOINT
+    value: "databricks-claude-sonnet-4"
+
+user_api_scopes:
+  - sql
+  - genie

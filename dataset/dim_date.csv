@@ -1,0 +1,13 @@
+date_id,date,year,month_num,month_name,quarter,period_label,is_current_period
+202405,2024-05-01,2024,5,May,Q2,Historical,false
+202406,2024-06-01,2024,6,Jun,Q2,Historical,false
+202407,2024-07-01,2024,7,Jul,Q3,Historical,false
+202408,2024-08-01,2024,8,Aug,Q3,Historical,false
+202409,2024-09-01,2024,9,Sep,Q3,Historical,false
+202410,2024-10-01,2024,10,Oct,Q4,Historical,false
+202411,2024-11-01,2024,11,Nov,Q4,Current,true
+202412,2024-12-01,2024,12,Dec,Q4,Current,true
+202501,2025-01-01,2025,1,Jan,Q1,Current,true
+202502,2025-02-01,2025,2,Feb,Q1,Current,true
+202503,2025-03-01,2025,3,Mar,Q1,Current,true
+202504,2025-04-01,2025,4,Apr,Q2,Current,true
