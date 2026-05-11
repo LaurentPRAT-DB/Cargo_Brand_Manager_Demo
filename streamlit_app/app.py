@@ -862,8 +862,16 @@ elif current_page == "Ask Genie":
 
     def display_genie_result(result: dict):
         """Display Genie response: text, table, and chart."""
-        content = result.get("text_response") or result.get("error") or "No response"
-        st.markdown(content)
+        text = result.get("text_response")
+        error = result.get("error")
+        has_data = result.get("data") and result.get("columns")
+
+        if text:
+            st.markdown(text)
+        elif error:
+            st.error(error)
+        elif not has_data:
+            st.warning("No response")
 
         if result.get("data") and result.get("columns"):
             df = pd.DataFrame(result["data"], columns=result["columns"])
